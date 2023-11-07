@@ -16,21 +16,16 @@ public class BrowserDriver {
 
     }
 
-    public void setUp(){
-        //System. setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/java/resources/drivers/chromedriver.exe");
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
         wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         wd.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-
-        wd.get("http://www.globalsqa.com/demo-site/draganddrop/");
-        System.out.println(wd.getTitle());
-        System.out.println(wd.getCurrentUrl());
     }
 
     public void closeDriverGracefully() {
         wd.close();
-        wd.quit();
+//        wd.quit();
     }
 
 }

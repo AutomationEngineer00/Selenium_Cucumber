@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="278bef1c-713b-4ca6-89e9-b054eb2b9587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runner/RunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepsDefinition/CheckoutOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepsDefinition/loginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/features/OrderABottle.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/features/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/utility/BrowserDriver.java" afterDir="false" />
+    <list default="true" id="278bef1c-713b-4ca6-89e9-b054eb2b9587" name="Changes" comment="PHIRRA-91">
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepsDefinition/LoginDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/features/loginDemo.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepsDefinition/CheckoutOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsDefinition/CheckoutOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepsDefinition/loginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsDefinition/loginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/OrderABottle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/features/OrderABottle.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/utility/BrowserDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/utility/BrowserDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,15 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check login is successful with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Test login with valid credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/loginDemo.feature" />
       <option name="GLUE" value="StepsDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="NewWorkSpaceCucumber" />
-      <option name="NAME_FILTER" value="^Check login is successful with valid credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check login is successful with valid credentials$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check login is successful with valid credentials" />
+      <option name="NAME_FILTER" value="^Test login with valid credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Test login with valid credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Test login with valid credentials" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -165,10 +155,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerTest" />
+        <item itemvalue="Cucumber Java.Scenario: Test login with valid credentials" />
         <item itemvalue="Cucumber Java.Feature: OrderABottle" />
         <item itemvalue="Cucumber Java.Feature: login (1)" />
         <item itemvalue="Cucumber Java.Feature: login" />
-        <item itemvalue="Cucumber Java.Scenario: Check login is successful with valid credentials" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +171,14 @@
       <option name="presentableId" value="Default" />
       <updated>1699344340068</updated>
     </task>
+    <task id="LOCAL-00001" summary="PHIRRA-91">
+      <created>1699360843169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699360843169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,5 +191,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PHIRRA-91" />
+    <option name="LAST_COMMIT_MESSAGE" value="PHIRRA-91" />
   </component>
 </project>

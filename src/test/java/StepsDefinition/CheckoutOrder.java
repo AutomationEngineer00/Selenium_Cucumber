@@ -8,7 +8,7 @@ import resources.utility.BrowserDriver;
 
 public class CheckoutOrder extends BrowserDriver {
 
-    @Given("the user have browser open")
+    @Given("the user have browser up and running")
     public void verify_browser_is_open() {
         System.out.println("the user have browser open");
         setUp();
